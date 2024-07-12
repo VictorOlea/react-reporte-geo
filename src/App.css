@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.container-info {
+  width: 1000px;
+  margin-bottom: 4px;
+}
+
+.container-bar {
+  margin-top: 4rem;
+}

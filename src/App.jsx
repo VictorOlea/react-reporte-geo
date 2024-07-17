@@ -1,7 +1,6 @@
 import "./App.css";
-//import MapReactEchart from "./componets/MapReactEchart";
 import StrokeAnimation from "./componets/StrokeAnimanation";
-import Mapa6Region from "./assets/map_6_region.svg";
+import MapReactEchart from "./componets/MapReactEchart";
 import BarCategoryEchart from "./componets/BarCategoryEchart";
 
 function App() {
@@ -11,9 +10,9 @@ function App() {
       <StrokeAnimation text={"Región de O'Higgins"} fontSize={40} />
 
       <div className="container">
-        <img src={Mapa6Region} alt="Mapa Test" />
-        {/* <MapReactEchart /> */}
+        <MapReactEchart />
       </div>
+
       <div className="container-info">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
@@ -30,6 +29,14 @@ function App() {
       </div>
       <div className="container-bar">
         <BarCategoryEchart />
+      </div>
+      <div className="container-info">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          ullam consectetur suscipit, possimus maiores impedit sunt autem,
+          rerum, laudantium necessitatibus iure nisi eos obcaecati voluptates
+          hic excepturi! Nihil, ullam ipsam.
+        </p>
       </div>
       <div>
         <h3>Developed by Víctor Olea</h3>
